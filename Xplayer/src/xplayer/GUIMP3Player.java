@@ -47,6 +47,17 @@ public class GUIMP3Player extends javax.swing.JFrame {
         jButton5 = new javax.swing.JButton();
         jButton6 = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
+        jPanel1 = new javax.swing.JPanel();
+        jSlider3 = new javax.swing.JSlider();
+        jSlider4 = new javax.swing.JSlider();
+        jSlider5 = new javax.swing.JSlider();
+        jSlider6 = new javax.swing.JSlider();
+        jSlider7 = new javax.swing.JSlider();
+        jSlider8 = new javax.swing.JSlider();
+        jSlider9 = new javax.swing.JSlider();
+        jSlider10 = new javax.swing.JSlider();
+        jSlider11 = new javax.swing.JSlider();
+        jSlider12 = new javax.swing.JSlider();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
@@ -119,6 +130,72 @@ public class GUIMP3Player extends javax.swing.JFrame {
 
         jLabel2.setText("00:00 / 00:00");
 
+        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("EQ ..."));
+        jSlider3.setOrientation(javax.swing.JSlider.VERTICAL);
+
+        jSlider4.setOrientation(javax.swing.JSlider.VERTICAL);
+
+        jSlider5.setOrientation(javax.swing.JSlider.VERTICAL);
+
+        jSlider6.setOrientation(javax.swing.JSlider.VERTICAL);
+
+        jSlider7.setOrientation(javax.swing.JSlider.VERTICAL);
+
+        jSlider8.setOrientation(javax.swing.JSlider.VERTICAL);
+
+        jSlider9.setOrientation(javax.swing.JSlider.VERTICAL);
+
+        jSlider10.setOrientation(javax.swing.JSlider.VERTICAL);
+
+        jSlider11.setOrientation(javax.swing.JSlider.VERTICAL);
+
+        jSlider12.setOrientation(javax.swing.JSlider.VERTICAL);
+
+        org.jdesktop.layout.GroupLayout jPanel1Layout = new org.jdesktop.layout.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+            .add(org.jdesktop.layout.GroupLayout.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addContainerGap(34, Short.MAX_VALUE)
+                .add(jSlider12, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
+                .add(jSlider11, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
+                .add(jSlider10, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
+                .add(jSlider9, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
+                .add(jSlider8, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+                .add(39, 39, 39)
+                .add(jSlider6, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
+                .add(jSlider7, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
+                .add(jSlider4, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
+                .add(jSlider3, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
+                .add(jSlider5, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+                .add(22, 22, 22))
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+            .add(org.jdesktop.layout.GroupLayout.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .add(jPanel1Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+                    .add(jSlider5, 0, 0, Short.MAX_VALUE)
+                    .add(jSlider3, 0, 0, Short.MAX_VALUE)
+                    .add(jSlider4, 0, 0, Short.MAX_VALUE)
+                    .add(jSlider7, 0, 0, Short.MAX_VALUE)
+                    .add(jSlider6, 0, 0, Short.MAX_VALUE)
+                    .add(jSlider8, 0, 0, Short.MAX_VALUE)
+                    .add(jSlider9, 0, 0, Short.MAX_VALUE)
+                    .add(jSlider10, 0, 0, Short.MAX_VALUE)
+                    .add(jSlider11, 0, 0, Short.MAX_VALUE)
+                    .add(jSlider12, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 120, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap())
+        );
+
         jMenu1.setText("File");
         jMenuItem1.setText("Open..");
         jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
@@ -156,27 +233,31 @@ public class GUIMP3Player extends javax.swing.JFrame {
                 .addContainerGap()
                 .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
                     .add(layout.createSequentialGroup()
+                        .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+                            .add(layout.createSequentialGroup()
+                                .add(jSlider2, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 265, Short.MAX_VALUE)
+                                .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED))
+                            .add(jLabel1, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 168, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
+                        .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+                            .add(layout.createSequentialGroup()
+                                .add(jSlider1, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+                                .add(41, 41, 41)
+                                .add(jButton1))
+                            .add(layout.createSequentialGroup()
+                                .add(65, 65, 65)
+                                .add(jLabel2, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 79, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))))
+                    .add(org.jdesktop.layout.GroupLayout.TRAILING, layout.createSequentialGroup()
                         .add(jButton3, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 64, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
                         .add(jButton2, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 69, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
-                        .add(jButton4, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 76, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
-                    .add(layout.createSequentialGroup()
-                        .add(jSlider2, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 230, Short.MAX_VALUE)
-                        .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED))
-                    .add(jLabel1, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 168, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
-                .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
-                    .add(layout.createSequentialGroup()
-                        .add(jSlider1, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
-                        .add(41, 41, 41)
-                        .add(jButton1))
-                    .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.TRAILING)
-                        .add(layout.createSequentialGroup()
-                            .add(jButton5, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 73, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
-                            .add(6, 6, 6)
-                            .add(jButton6, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 65, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
-                        .add(jLabel2, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 79, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)))
+                        .add(jButton4, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 76, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
+                        .add(jButton5, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 73, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+                        .add(6, 6, 6)
+                        .add(jButton6, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 65, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
+                    .add(org.jdesktop.layout.GroupLayout.TRAILING, jPanel1, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -193,14 +274,16 @@ public class GUIMP3Player extends javax.swing.JFrame {
                             .add(jSlider2, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
                             .add(jButton1)))
                     .add(org.jdesktop.layout.GroupLayout.LEADING, jSlider1, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 57, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
                 .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.BASELINE)
                     .add(jButton6)
                     .add(jButton5)
                     .add(jButton3)
                     .add(jButton2)
                     .add(jButton4))
-                .addContainerGap())
+                .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
+                .add(jPanel1, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -427,8 +510,19 @@ public class GUIMP3Player extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JMenuItem jMenuItem3;
+    private javax.swing.JPanel jPanel1;
     private javax.swing.JSlider jSlider1;
+    private javax.swing.JSlider jSlider10;
+    private javax.swing.JSlider jSlider11;
+    private javax.swing.JSlider jSlider12;
     private javax.swing.JSlider jSlider2;
+    private javax.swing.JSlider jSlider3;
+    private javax.swing.JSlider jSlider4;
+    private javax.swing.JSlider jSlider5;
+    private javax.swing.JSlider jSlider6;
+    private javax.swing.JSlider jSlider7;
+    private javax.swing.JSlider jSlider8;
+    private javax.swing.JSlider jSlider9;
     // End of variables declaration//GEN-END:variables
     private JFilePlayer fp;
     private GUIUpdaterTreads gupt;
