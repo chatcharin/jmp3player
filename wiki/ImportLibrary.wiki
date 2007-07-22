@@ -1,13 +1,7 @@
 #summary One-sentence summary of this page.
 
-= Introduction =
+= Import Encoder Library=
 
-Add your content here.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+    ในการ ถอดรหัส mp3 นั้นจะต้องใช้ library  ดังนั้นเราจำเป็นต้องหามา
+    ที่เราใช้ก็เป็นพวก โอเพ่นซอส
+    แต่ได้รวมเอาไว้ใน source file
