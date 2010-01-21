@@ -1,14 +1,12 @@
-#summary One-sentence summary of this page.
+#Rodd Maps.
 
-= Introduction =
-
-Add your content here.
-
+= JMP3Player Update =
 
 = Details =
+  * Update Library
+  * Playlist
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
-
+= Playlist =
+  * Brows mp3 File
+  * Scan mp3 in Directory
+  * Random Play
